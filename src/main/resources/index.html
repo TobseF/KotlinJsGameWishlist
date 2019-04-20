@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Games Wishlist</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+  <!--Header-->
+  <div class="header">Games Wishlist</div>
+
+  <!--Loader-->
+  <div id="loader" class="loader">
+    <svg class="spinner" width="66px" height="66px" stroke-width="5" viewBox="0 0 66 66">
+      <circle cx="33" cy="33" r="25"></circle>
+    </svg>
+  </div>
+
+  <!--Content-->
+  <div id="content" class="root root-children">
+  </div>
+
+  <script>
+    // Loads the game list as json
+    function getGameApiUrl(){
+      return "https://gist.githubusercontent.com/TobseF/3df84e7705563f23608c180bdcbd0294/raw/64bcd2af6eec9d695781d3578923a09f6563b71b/game_wishlist.json";
+    }
+  </script>
+
+  <!-- Link to the compiled js files-->
+  <script src="kotlin.js"></script>
+  <!-- Link to the compiled js files-->
+  <script src="output.js"></script>
+
+  </body>
+</html>
