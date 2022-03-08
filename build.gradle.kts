@@ -1,10 +1,10 @@
 
 plugins {
-    id("kotlin2js") version "1.3.20"
+    id("kotlin2js") version "1.6.10"
 }
 
 dependencies {
-    compile(kotlin("stdlib-js"))
+    implementation(kotlin("stdlib-js"))
 }
 
 repositories {

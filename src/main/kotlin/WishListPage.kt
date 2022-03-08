@@ -1,5 +1,5 @@
+import kotlinx.browser.document
 import org.w3c.dom.HTMLDivElement
-import kotlin.browser.document
 
 class WishListPage(private val presenter: WishListContract.Presenter) : WishListContract.View {
 

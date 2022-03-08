@@ -1,10 +1,10 @@
+import kotlinx.browser.document
+import kotlinx.browser.window
+import kotlinx.dom.addClass
 import org.w3c.dom.Element
 import org.w3c.dom.HTMLButtonElement
 import org.w3c.dom.HTMLDivElement
 import org.w3c.dom.HTMLImageElement
-import kotlin.browser.document
-import kotlin.browser.window
-import kotlin.dom.addClass
 
 class GameCardBuilder {
 

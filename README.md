@@ -1,4 +1,6 @@
 # 🎮 Game Wishlist
+[![Kotlin](https://img.shields.io/badge/Kotlin-1.6.10-blue.svg?style=flat&logo=kotlin&logoColor=white)](http://kotlinlang.org)
+[![Gradle](https://img.shields.io/badge/Gradle-7.0.2-5AD6AB.svg?style=flat&logo=Gradle&logoColor=white)](http://kotlinlang.org)
 
 Simple view only Steam wishlist as Kotlin JS demo.
 
@@ -10,7 +12,7 @@ Code follows the instructions in [raywenderlich - kotlin-js-getting-started](htt
 Chose `Kotlin SDK` in _Project Structure > Project Settings > Project > Project SDK_.  
 
 If gradle import doesn't work, you can manually add the libraries:
-_Project Structure > Project Settings > Libraies > Add_.  
+_Project Structure > Project Settings > Libraries > Add_.  
 `$USER_HOME$\IntelliJIdea2019.1\config\plugins\Kotlin\kotlinc\lib\kotlin-stdlib-js-sources.jar`
 
 Run Gradle build.
